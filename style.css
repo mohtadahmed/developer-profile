@@ -3,6 +3,11 @@ body{
     margin: 0;
     padding: 0;
 }
+section{
+    margin-bottom: 150px;
+}
+
+/* Top Banner Section CSS Starts */
 .top-banner{
     background-image: url(/img/top-banner.png);
     background-repeat: no-repeat;
@@ -32,3 +37,14 @@ h1{
 .orange-color{
     color: orange;
 }
+/* Top Banner Section CSS Ends */
+
+
+/* Dream Big Section Starts */
+.dream-big{
+    display: flex;
+    background-image: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* Dream Big Section Ends */
