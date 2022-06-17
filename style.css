@@ -1,23 +1,26 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
-section{
+
+section {
     margin-bottom: 50px;
 }
 
 /* Top Banner Section CSS Starts */
-.top-banner{
+.top-banner {
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding: 6%;
 }
-.link-button{
+
+.link-button {
     background-image: linear-gradient(45deg, orange, tomato);
     padding: 10px 20px;
     border-radius: 5px;
@@ -25,42 +28,47 @@ section{
     color: white;
     font-weight: 700;
 }
-.half-width img{
+
+.half-width img {
     width: 100%;
     border-radius: 20px;
     margin: auto;
 }
 
-h1{
+h1 {
     font-size: 50px;
     /* margin-left: 60px; */
 }
-.orange-color{
+
+.orange-color {
     color: orange;
 }
+
 /* Top Banner Section CSS Ends */
 
 
 /* Dream Big Section Starts */
-.dream-big{
+.dream-big {
     display: flex;
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+
 /* Dream Big Section Ends */
 
 
 /* Experience Section */
-.experience h1{
+.experience h1 {
     margin-left: 60px;
 }
-.exp-section{
+
+.exp-section {
     display: flex;
     padding: 10px;
 }
 
-.experience-item{
+.experience-item {
     width: 40%;
     margin: auto;
     padding-left: 20px;
@@ -69,14 +77,85 @@ h1{
     border-image: linear-gradient(#8e44ad, #e74c3c) 20;
 }
 
-.experience-item p{
+.experience-item p {
     padding-right: 40px;
     text-align: justify;
 }
+
 /* Experience Section */
 
 /* Footer Section */
-footer{
+footer {
     color: #696969;
     text-align: center;
 }
+
+/* Footer Section */
+
+
+
+/* Responsive Design for mobile and Tablet */
+
+@media only screen and (max-width:768px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-banner {
+        display: block;
+    }
+
+    .half-width {
+        width: 80%;
+    }
+
+    .half-width img {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-left: 0;
+    }
+
+
+    /* Dream Big Section Starts */
+    .dream-big {
+        display: block;
+    }
+
+    /* Dream Big Section Ends */
+
+
+    /* Experience Section */
+    .exp-section {
+        display: block;
+    }
+
+    .experience-item {
+        width: 80%;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+    .experience-item h2{
+        font-size: 20px;
+    }
+
+    .experience-item p {
+        padding-right: 40px;
+    }
+
+    /* Experience Section */
+
+    /* Footer Section */
+    footer{
+        font-size: 12px;
+    }
+    /* Footer Section */
+
+}
+/* Responsive Design for mobile and Tablet */
